@@ -1,5 +1,5 @@
 # miniprojects
-Patient_showup.ipynb
+# Patient_showup.ipynb
 1.	Input data used - patients.csv - appointments.csv
 2.	Data was inner joined using patient_id and id columns using merge command.
 3.	Checked resulting table for missing values. None was found.
@@ -15,7 +15,7 @@ Patient_showup.ipynb
 13.	ROC curves were used to evaluate these algorithms and all models have almost the same accuracy.
 14.	Since the model doesn't fit the data very well, we would need to identify additional variables that could help increase the accuracy.
 
-SVM_IRIS_CLASSIFICATION.ipynb
+# SVM_IRIS_CLASSIFICATION.ipynb
 1.	This is an example to showcase models that can predict a classification using Support  vector machines
 2.	The code uses the classic IRIS dataset
 3.	The data has details on 3 different species – Iris setosa, iris virginica, iris versicolor
@@ -25,7 +25,9 @@ SVM_IRIS_CLASSIFICATION.ipynb
 7.	We build a SVM model using the SVC function and the model results are very good
 8.	We then try to use a gridsearch to see if the model can be tuned better
 9.	The gridsearch seems to be overfitting the model so we will be using results of our previous model
-OCR-TESSERACT.ipynb
+
+
+# OCR-TESSERACT.ipynb
 1.	This project tends to showcase how we can do OCR using tesseract engine 
 2.	OCR has varied purposes – OCR is the root of computer vision/object detection etc in images that we see today
 3.	In this example I am trying to read a image (that is a user filled out form) and try to read the texts entered by the user into our system
